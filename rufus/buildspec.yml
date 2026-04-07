@@ -12,4 +12,4 @@ phases:
   post_build:
     commands:
       - echo "Deploying to S3..."
-      - aws s3 sync . s3://devops9rufus --delete
+      - aws s3 sync . s3://devops9-rufus --delete
